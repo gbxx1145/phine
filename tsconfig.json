@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": [
+      "es2020"
+    ],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "strictNullChecks": true
+  }
+}
