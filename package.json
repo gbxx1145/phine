@@ -1,0 +1,22 @@
+{
+  "name": "phine",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --outdir=agent --bundle --minify",
+    "watch": "esbuild src/index.ts --outdir=agent --bundle --minify --watch",
+    "lint": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "frida-il2cpp-bridge": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^18.6.0",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.0.0"
+  }
+}
