@@ -44,7 +44,7 @@ export default function run(cs_img: Il2Cpp.Image, unity_cor_img: Il2Cpp.Image) {
       const vec3_judgeline = transform.method("get_position")
         .invoke() as Il2Cpp.Object
       sc_cr.method("Perfect").invoke(
-        note_info.field("noteCode").value,
+        note_info,
         judge_time,
         vec3_judgeline,
         false
@@ -112,7 +112,7 @@ export default function run(cs_img: Il2Cpp.Image, unity_cor_img: Il2Cpp.Image) {
         const vec3_judgeline = transform.method("get_position")
           .invoke() as Il2Cpp.Object
         sc_cr.method("Perfect").invoke(
-          note_info.field("noteCode").value,
+          note_info,
           judge_time,
           vec3_judgeline,
           true
