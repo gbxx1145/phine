@@ -1,16 +1,17 @@
 # phine
-PHine Is Not Emulator
+phine is not emulator
 <br>
 English|[简体中文](README.zh_CN.md)
 
 ## Features
-Chart preview(autoplay), dump and replace
+-   Chart preview(autoplay), dump and replace
+-   Normalize function of fool day
 
 ## Compatibility
 
 ### Game verison
 
-Phigros 3.4.3
+Phigros 3.12.0
 
 ### Platforms
 

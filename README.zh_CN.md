@@ -1,16 +1,17 @@
 # phine
-PHine Is Not Emulator
+phine is not emulator
 <br>
 [English](README.md)|简体中文
 
 ## 功能
-预览(自动演奏), 导出和替换铺面
+-   预览(自动演奏), 导出和替换铺面
+-   常态化愚人节功能
 
 ## 兼容性
 
 ### 游戏版本
 
-Phigros 3.4.3
+Phigros 3.12.0
 
 ### 平台
 
